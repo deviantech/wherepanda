@@ -1,0 +1,9 @@
+{% capture imagePath %}{{ page.date | date: "%Y-%m-%d" }}/{{ include.name }}{% endcapture %}
+{% if include.caption %}
+<figure>
+  {% picture post {{ imagePath }} alt="{{ include.alt }}" %}
+  <figcaption>{{ include.caption }}</figcaption>
+</figure>
+{% else %}
+  {% picture post {{ imagePath }} alt="{{ include.alt }}" %}
+{% endif %}
