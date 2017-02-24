@@ -7,3 +7,5 @@ excerpt: In which we set off on our journey.
 ## Adventure! We can haz it?
 
 Waking up in Chiang Mai.
+
+Also breakfast!
